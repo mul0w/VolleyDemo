@@ -10,6 +10,9 @@ import fr.endofline.volleydemo.datas.beans.SampleBean;
 import fr.endofline.volleydemo.datas.parser.SampleBeanParser;
 import fr.endofline.volleydemo.datas.volley.XMLGenericRequest;
 
+/*
+ * Created by stef on 19/08/13.
+ */
 public class MainActivity extends Activity {
 
     private RequestQueue mRequestQueue;

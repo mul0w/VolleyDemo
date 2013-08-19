@@ -6,11 +6,7 @@ import com.android.volley.toolbox.HttpHeaderParser;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * User: stef
- * Date: 17/07/13
- * Time: 17:59
- * To change this template use File | Settings | File Templates.
+ * Created by stef on 19/08/13.
  */
 public class CustomHttpHeaderParser extends HttpHeaderParser {
 

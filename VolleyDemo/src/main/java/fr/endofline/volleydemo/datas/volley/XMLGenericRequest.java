@@ -9,7 +9,7 @@ import fr.endofline.volleydemo.datas.parser.common.XMLParser;
 import java.io.ByteArrayInputStream;
 
 /**
- * Created by stef on 17/07/13.
+ * Created by stef on 19/08/13.
  */
 public class XMLGenericRequest<T> extends Request<T> {
 
