@@ -35,7 +35,7 @@ public class XMLGenericRequest<T> extends Request<T> {
         } catch (Exception e) {
             Log.w("TAG", e.getMessage());
         }
-        return Response.success(data, CustomHttpHeaderParser.parseIgnoreCacheHeaders(response));
+        return Response.success(data, CustomHttpHeaderParser.parseIgnoringCacheHeaders(response));
     }
 
     @Override

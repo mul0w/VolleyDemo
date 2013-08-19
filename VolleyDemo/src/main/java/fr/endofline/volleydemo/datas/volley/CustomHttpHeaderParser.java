@@ -10,34 +10,29 @@ import java.util.Map;
  */
 public class CustomHttpHeaderParser extends HttpHeaderParser {
 
-    public static com.android.volley.Cache.Entry parseIgnoreCacheHeaders(com.android.volley.NetworkResponse response) {
-        long now = System.currentTimeMillis();
+    public static com.android.volley.Cache.Entry parseIgnoringCacheHeaders(com.android.volley.NetworkResponse response) {
 
         Map<String, String> headers = response.headers;
         long serverDate = 0;
-        String serverEtag = null;
-        String headerValue;
-
-        headerValue = headers.get("Date");
+        String serverETag = headers.get("ETag");
+        String headerValue = headers.get("Date");
         if (headerValue != null) {
             serverDate = parseDateAsEpoch(headerValue);
         }
 
-        serverEtag = headers.get("ETag");
-
-        final long cacheHitButRefreshed = 15 * 60 * 1000; // in 3 minutes cache will be hit, but also refreshed on background
+        long now = System.currentTimeMillis();
+        final long cacheHitButRefreshed = 15 * 60 * 1000; // in 15 minutes cache will be hit, but also refreshed on background
         final long cacheExpired = 12 * 60 * 60 * 1000; // in 24 hours this cache entry expires completely
-        final long softExpire = now + cacheHitButRefreshed;
-        final long ttl = now + cacheExpired;
 
         Cache.Entry entry = new Cache.Entry();
         entry.data = response.data;
-        entry.etag = serverEtag;
-        entry.softTtl = softExpire;
-        entry.ttl = ttl;
+        entry.etag = serverETag;
+        entry.softTtl = now + cacheHitButRefreshed;
+        entry.ttl = now + cacheExpired;
         entry.serverDate = serverDate;
         entry.responseHeaders = headers;
 
         return entry;
     }
+
 }

@@ -8,9 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6387d3ad-16d3-45e2-a16f-c0910a920336" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/CustomHttpHeaderParser.java" afterPath="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/CustomHttpHeaderParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/MainActivity.java" afterPath="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/XMLGenericRequest.java" afterPath="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/XMLGenericRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="VolleyDemo.iws" />
@@ -75,86 +73,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VolleyApplication.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/VolleyApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#932#944#0" expanded="true" />
-                <element signature="e#1639#1854#0" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XMLParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/parser/common/XMLParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleBeanParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/parser/SampleBeanParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomHttpHeaderParser.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CustomHttpHeaderParser.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/CustomHttpHeaderParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XMLGenericRequest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/XMLGenericRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SampleBean.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/beans/SampleBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="50" selection-end="82" vertical-scroll-proportion="0.10688836" vertical-offset="0" max-vertical-offset="421">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VolleyDemo/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="356" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+            <state line="22" column="0" selection-start="669" selection-end="669" vertical-scroll-proportion="0.67535543" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -215,9 +137,9 @@
         <option value="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/beans/SampleBean.java" />
         <option value="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/parser/SampleBeanParser.java" />
         <option value="$PROJECT_DIR$/VolleyDemo/build.gradle" />
-        <option value="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/CustomHttpHeaderParser.java" />
         <option value="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/XMLGenericRequest.java" />
         <option value="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/CustomHttpHeaderParser.java" />
       </list>
     </option>
   </component>
@@ -692,6 +614,11 @@
       <created>1376910689494</created>
       <updated>1376910689494</updated>
     </task>
+    <task id="LOCAL-00001" summary="Dates">
+      <created>1376914675093</created>
+      <updated>1376914675093</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -699,7 +626,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32985073" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -716,7 +643,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67014927" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -732,6 +659,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Dates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -800,13 +729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/CustomHttpHeaderParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/XMLGenericRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
@@ -839,7 +761,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/beans/SampleBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="50" selection-end="82" vertical-scroll-proportion="0.10688836" vertical-offset="0" max-vertical-offset="421">
+        <state line="7" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/VolleyDemo/libs/volley.jar!/com/android/volley/toolbox/HttpHeaderParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="169" selection-end="169" vertical-scroll-proportion="0.12417219" vertical-offset="0" max-vertical-offset="604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VolleyDemo/src/main/java/fr/endofline/volleydemo/datas/volley/CustomHttpHeaderParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="669" selection-end="669" vertical-scroll-proportion="0.67535543" vertical-offset="0" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
