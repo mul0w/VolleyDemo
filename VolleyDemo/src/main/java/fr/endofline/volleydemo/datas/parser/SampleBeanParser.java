@@ -17,6 +17,23 @@ public class SampleBeanParser extends XMLParser<SampleBean> {
         SampleBean bean = new SampleBean();
 
         // Parse your datas
+        // -> Adding fake datas from http://www.w3schools.com/xml/note.xml
+        parser.require(XmlPullParser.START_TAG, ns, "note");
+        while (parser.next() != XmlPullParser.END_TAG) {
+            if (parser.getEventType() != XmlPullParser.START_TAG) {
+                continue;
+            }
+            String name = parser.getName();
+            if (name.equals("to")) {
+                bean.to = readValue(parser, "to");
+            } else if (name.equals("from")) {
+                bean.from = readValue(parser, "from");
+            } else if (name.equals("heading")) {
+                bean.heading = readValue(parser, "heading");
+            } else if (name.equals("body")) {
+                bean.body = readValue(parser, "body");
+            }
+        }
 
         return bean;
     }

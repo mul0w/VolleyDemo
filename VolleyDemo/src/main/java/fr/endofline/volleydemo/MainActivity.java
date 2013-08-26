@@ -3,9 +3,10 @@ package fr.endofline.volleydemo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
-import com.android.volley.RequestQueue;
+import android.widget.TextView;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.NetworkImageView;
 import fr.endofline.volleydemo.datas.beans.SampleBean;
 import fr.endofline.volleydemo.datas.parser.SampleBeanParser;
 import fr.endofline.volleydemo.datas.volley.XMLGenericRequest;
@@ -15,25 +16,34 @@ import fr.endofline.volleydemo.datas.volley.XMLGenericRequest;
  */
 public class MainActivity extends Activity {
 
-    private RequestQueue mRequestQueue;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        mRequestQueue = ((VolleyApplication)getApplication()).getVolleyRequestQueue();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+        fetchDatas();
 
-        XMLGenericRequest<SampleBean> rq = new XMLGenericRequest<SampleBean>("CALLED_URL", new SampleBeanParser(),
+        NetworkImageView img = (NetworkImageView) findViewById(R.id.volleyImage);
+        img.setImageUrl("http://developer.android.com/images/home/android-jellybean.png", ((VolleyApplication)getApplication()).getVolleyImageLoader());
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    private void fetchDatas() {
+        XMLGenericRequest<SampleBean> rq = new XMLGenericRequest<SampleBean>("http://www.w3schools.com/xml/note.xml", new SampleBeanParser(),
                 new XMLGenericRequest.CustomListener<SampleBean>() {
                     @Override
                     public void onResponse(SampleBean bean) {
                         // Do your stuff on response -> cached datas or new datas if TTL expires
+                        ((TextView)findViewById(R.id.volleyXml)).setText(bean.toString());
                     }
 
                     @Override
@@ -50,13 +60,7 @@ public class MainActivity extends Activity {
                     }
                 });
         rq.setTag(this);
-        mRequestQueue.add(rq);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+        ((VolleyApplication)getApplication()).getVolleyRequestQueue().add(rq);
     }
     
 }
