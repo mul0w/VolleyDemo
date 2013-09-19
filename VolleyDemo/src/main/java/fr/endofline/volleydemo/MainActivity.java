@@ -62,5 +62,11 @@ public class MainActivity extends Activity {
         rq.setTag(this);
         ((VolleyApplication)getApplication()).getVolleyRequestQueue().add(rq);
     }
-    
+
+    @Override
+    protected void onStop() {
+        ((VolleyApplication)getApplication()).getVolleyRequestQueue().cancelAll(this);
+        super.onStop();
+    }
+
 }
