@@ -30,10 +30,4 @@ public class VolleyApplication extends Application {
         return volleyImageLoader;
     }
 
-    @Override
-    public void onTerminate() {
-        volleyRequestQueue.stop();
-        super.onTerminate();
-    }
-
 }
